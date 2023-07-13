@@ -1,0 +1,25 @@
+div {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    & input {
+        margin: 0 15px;
+        height: 30px;
+    }
+    #sum-result {
+        color: red;
+        padding: 0 15px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+#submit {
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    &:hover {background-color: orangered;}
+    &:active {background-color: aqua;}
+}
